@@ -31,10 +31,10 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} /> {/* 메인 페이지 */}
             <Route path="/kakao/callback" element={<KakaoCallback />} />
-
             <Route path="/map" element={<MapPage />} /> {/* 지도 페이지 */}
             <Route path="/myRestaurantInfo" element={<MyRestaurantInfo />} /> {/* 지도 페이지 */}
             <Route path="/join" element={<Join />} />
+            <Route path="/delete" element={<Delete />} />
             <Route path="/login" element={<Login />} />
             <Route path="/mypage" element={<MyPage />} />
             <Route path="/myinfo" element={<MyInfo />} />
