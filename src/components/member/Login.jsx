@@ -58,11 +58,7 @@ function Login() {
   };
 
   const handleKakaoLogin = () => {
-    window.open(
-        `${process.env.REACT_APP_API_URL}/v1/auth/kakao`,
-        "_blank",
-        "width=500,height=600,scrollbars=yes"
-    );
+    window.location.href = `${process.env.REACT_APP_API_URL}/v1/auth/kakao`;
   };
 
   return (
